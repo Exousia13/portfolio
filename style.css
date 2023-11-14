@@ -497,9 +497,13 @@ section h1 {
     gap: 2em;
 }
 
-.contact__links a i{
-    margin-right: 10px;
-}
+.contact__links  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
 
 .back_to-top a {
   position: fixed;
