@@ -1,91 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthew Olapade - Researcher & Data Scientist</title>
-    <link rel="stylesheet" href="style.css">  </head>
-<body>
-    <header>
-        <nav>
-            <a href="#" class="logo">OM</a>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Quicksand:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <title>Matthew Olapade</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">O<span style="color: #ffc000">M</span></a>
+
+      <nav class="navbar">
+        <a href="#home" class="btn" style="color: #fff">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div id="menu-icon" class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
     </header>
 
-    <main>  <section id="home">
-            <div class="home-content">
-                <h1>Matthew Olapade</h1>
-                <h2>Researcher & Data Scientist</h2>
-                <p>Turning data into insights for informed decisions.</p>
-                <div class="social-links">
-                    <a href="https://x.com/Matthew_Oyebola" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/matthew-olapade/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:maoyebola@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                </div>
-                <a href="#contact" class="cta-button">Contact Me</a>
-            </div>
-        </section>
+    <section class="home" id="home">
+      <div class="css-typing">
+        <p>Hi, welcome to my Homepage.</p>
+        <p>I'm Mathew Olapade.</p>
+        <p>A Professional Researcher and Data Scientist.</p>
+      </div>
+      <div class="contact__link">
+        <a href="https://x.com/Matthew_Oyebola" class="btn2"
+          ><i class="fa-brands fa-square-x-twitter fa-2x"></i
+        ></a>
+        <a href="https://web.facebook.com/matthew.oyebola.3" class="btn2"
+          ><i class="fa-brands fa-square-facebook fa-2x"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/matthew-olapade/" class="btn2"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+      </div>
+      <div class="btn2 btn2x"><a href="#contact">CONTACT ME</a></div>
+    </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <img src="./mathew.jpg" alt="Matthew Olapade" class="about-image">
-                <div class="about-text">
-                    <p>Your about me text goes here.  Be detailed and use the STAR method for accomplishments.</p>
-                </div>
-            </div>
-        </section>
+    <section class="about container" id="about">
+      <div class="about__text">
+        <h1 class="underline">ABOUT ME</h1>
+        <p>
+          Hi, I’m Mathew Olapade—a researcher, data analyst, and virtual assistant 
+          with a strong foundation in Statistics and Data Science. 
+          I hold a Bachelor’s degree in Statistics from the University of Ibadan, 
+          along with advanced certifications in Financial Modeling & Valuation Analysis 
+          (FMVA) and Business Intelligence & Data Analytics (BIDA) from Corporate Finance 
+          Institute (CFI).
 
-        <section id="services">
-            <h2>Services</h2>
-            <div class="services-grid">
-                <div class="service">
-                    <img src="./png/006-analysis.png" alt="Data Research & Analysis">
-                    <h3>Data Research & Analysis</h3>
-                    <p>Detailed description of this service.</p>
-                </div>
-                </div>
-        </section>
+          I specialize in conducting research and extracting meaningful insights from 
+          complex data, helping businesses and individuals make informed decisions. 
+          With 8+ years of experience in transport, logistics, and retail, 
+          I have assisted companies in leveraging data-driven strategies through:
+          ✔ In-depth research (Research Proposals, Journals, Dissertations, and Theses)
+          ✔ Statistical analysis & data visualization
+          ✔ Identifying hidden trends & optimizing workflows
 
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="../productpage/img1.jpg" alt="Project 1">
-                    <h3>Project Title 1</h3>
-                    <p>Brief description. Focus on results and impact.</p>
-                </div>
-                </div>
-        </section>
+          Beyond data analytics, I offer virtual assistance for research projects, 
+          supporting businesses, academics, and professionals with tasks such as data 
+          collection, market research, and comprehensive reporting. My ability to 
+          translate complex information into clear, strategic insights makes me 
+          a valuable asset to any team.
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Contact information and form go here.</p>
-            <div class="contact-content">
-                <div class="contact-details">
-                    <h3>Get in touch</h3>
-                    <ul>
-                        <li>...</li>
-                    </ul>
-                </div>
-                <div class="contact-form">
-                    <h3>Contact Form (or just email link)</h3>
-                </div>
-            </div>
-        </section>
-    </main>
+          Looking for a dedicated researcher, data analyst, 
+          or virtual assistant to support your next project? 
+          Let’s connect—reach out via email, and let’s discuss how I can assist you!
+        </p>
+        <p class="sg">Matthew Olapade</p>
+      </div>
+      <div>
+        <img src="./mathew.jpg" alt="" />
+      </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Matthew Olapade</p>
+    <section class="services" id="services">
+      <div class="service__text">
+        <h1 class="underline">SERVICES</h1>
+        <p>
+          As a researcher, data analyst, and virtual assistant, I specialize in converting 
+          complex data into clear, actionable insights that empower businesses, academics, 
+          and professionals to make informed decisions. My expertise spans data research, 
+          analytics, visualization, and strategic business support, ensuring efficiency 
+          and cost-effectiveness in decision-making.
+        </p>
+        <p>
+          With a strong foundation in Statistics, Business Intelligence, and Financial Modeling, 
+          I leverage industry-leading tools, including SQL, R, Python, Stata, E-Views, Power BI, 
+          Excel, and Tableau, to extract, analyze, and present data in a meaningful way.
+        </p>
+      </div>
+
+      <div class="services__container">
+        <div class="box">
+          <img src="./png/006-analysis.png" alt="" />
+          <div class="content">
+            <h3>Data Research & Analysis</h3>
+            <p>
+              I conduct comprehensive data research and statistical analysis for 
+              businesses, academics, and research projects. My expertise includes:
+              ✔ Market Research & Business Intelligence – Understanding trends, 
+              consumer behavior, and competitive landscapes.
+              ✔ Academic Research – Developing and analyzing journals, academic posters,
+              presentations, dissertations, and theses with a data-driven approach.
+              ✔ Quantitative & Qualitative Analysis – Structuring and interpreting 
+              complex datasets for insightful reporting.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./png/003-monitoring.png" alt="" />
+          <div class="content">
+            <h3>Predictive Analytics & Machine Learning</h3>
+            <p>
+              I develop supervised and unsupervised machine learning models to:
+              ✔ Forecast trends and business outcomes
+              ✔ Optimize strategies for efficiency and cost savings
+              ✔ Analyze customer behavior, risk assessment, and financial modeling
+              By leveraging AI-driven analytics, I help businesses stay ahead of trends
+              and make proactive decisions.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./png/002-dashboard.png" alt="" />
+          <div class="content">
+            <h3>Data Visualization & Interactive Dashboards</h3>
+            <p>
+              I create interactive dashboards and compelling data visualizations 
+              that help clients:
+              ✔ Track key performance metrics in real-time
+              ✔ Identify trends and patterns with ease
+              ✔ Make data-driven decisions using dynamic reports
+              Using Power BI, Tableau, and Excel, I design visual solutions 
+              tailored to business needs.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./png/005-teaching.png" alt="" />
+          <div class="content">
+            <h3>Virtual Assistance for Research & Reporting</h3>
+            <p>
+              I provide end-to-end support for research projects, assisting businesses, 
+              academics, and professionals with:
+              ✔ Data collection and cleaning
+              ✔ Market research and trend analysis
+              ✔ Report writing and business analysis
+              ✔ Organizing and structuring research insights
+              My goal is to ensure well-structured, data-backed reporting that drives impact.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./png/001-infographic.png" alt="" />
+          <div class="content">
+            <h3> Infographics & Data Storytelling</h3>
+            <p>
+              I specialize in transforming complex data into engaging visual narratives. 
+              My interactive infographics and data storytelling techniques ensure that insights are:
+              ✔ Easy to understand and visually compelling
+              ✔ Ideal for presentations, reports, and public communication
+              ✔ Designed for both internal and external audiences
+
+
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./png/004-report.png" alt="" />
+          <div class="content">
+            <h3>Business & Financial Planning</h3>
+            <p>
+              I assist businesses and startups with:
+              ✔ Financial modeling and valuation analysis
+              ✔ Strategic business planning and forecasting
+              ✔ Risk assessment and performance evaluation
+              By applying data-driven financial insights, 
+              I help organizations make confident investment and operational decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="portfolio__text">
+        <h1 class="underline">PORTFOLIO</h1>
+      </div>
+      <div class="card__wrapper">
+        <div class="portfolio__card">
+          <div class="imgBx">
+            <img src="../productpage/img1.jpg" alt="" />
+          </div>
+          <div class="portfolio__card__content">
+            <h2 class>Card One</h2>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius
+              nemo dolores! Vel, nihil alias!
+            </p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <div class="imgBx">
+            <img src="../productpage/img1.jpg" alt="" />
+          </div>
+          <div class="portfolio__card__content">
+            <h2 class>Card One</h2>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius
+              nemo dolores! Vel, nihil alias!
+            </p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <div class="imgBx">
+            <img src="../productpage/img1.jpg" alt="" />
+          </div>
+          <div class="portfolio__card__content">
+            <h2 class>Card One</h2>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius
+              nemo dolores! Vel, nihil alias!
+            </p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <div class="imgBx">
+            <img src="../productpage/img1.jpg" alt="" />
+          </div>
+          <div class="portfolio__card__content">
+            <h2 class>Card One</h2>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius
+              nemo dolores! Vel, nihil alias!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <div class="contact__text">
+        <h1 class="underline">CONTACT</h1>
+        <p>
+          As data scientist, I know exactly how you can use data optimally
+          within your business. Based on your objectives, we will make a plan to
+          reach the right insight.
+        </p>
+        <div class="contact__container">
+          <div class="contact__services">
+            <h1 class="h1">Get in touch with me for:</h1>
+            <ul>
+              <li>Data science (prediction models, segmentations)</li>
+              <li>Data analysis</li>
+              <li>Data visualisation (infographics, dashboards)</li>
+              <li>Advice and coaching data projects</li>
+              <li>
+                Training and workshops (start with data analysis, how to answer
+                questions with data, hands-on SQL, hands-on R)
+              </li>
+              <li>
+                Presentations (storytelling, how to present data, how do other
+                businesses use data?)
+              </li>
+            </ul>
+          </div>
+          <div class="contact__rate">
+            <h1 class="h1">Rates</h1>
+            <ul>
+              <li>
+                Data science, data analysis and visualisation projects: on
+                request
+              </li>
+              <li>Presentations, training and workshops: on request</li>
+              <li>Full-day training: on request</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h1 class="h1">Get in touch with via:</h1>
+      <div class="contact__links">
+        <a href="https://x.com/Matthew_Oyebola" class="btn"
+          ><i class="fa-brands fa-square-x-twitter fa-2x"></i> TWITTER</a
+        >
+        <a href="https://www.linkedin.com/in/matthew-olapade/" class="btn"
+          ><i class="fa-brands fa-linkedin fa-2x"></i> LINKEDIN</a
+        >
+        <a href="mailto:maoyebola@gmail.com" class="btn"
+          ><i class="fa-sharp fa-solid fa-at fa-2x"></i>MAIL</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">&copy; Matthew Olapade 2025</div>
+      <div class="icon__wrapper">
+        <a href=""><i class="fa-brands fa-square-x-twitter fa-2x"></i></a>
+        <a href=""><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a>
+      </div>
+      <div class="back-to-top">
+        <a href="#home"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+      </div>
     </footer>
-
-    <script src="script.js"></script>
-</body>
+  </body>
 </html>
